@@ -9,6 +9,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4FF0468-7AA6-458D-956F-D57D54962D10}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		travis.yml = travis.yml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netify.Api", "Netify.Api\Netify.Api.csproj", "{D29F8F30-D0C5-4428-A9AF-2B53EB409857}"

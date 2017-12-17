@@ -8,4 +8,5 @@ script:
 - dotnet build
 - dotnet publish ./Netify.Api/Netify.Api.csproj --output ../publish
 after_success:
-  gulp deploy --user $FTP_USER --password $FTP_PASSWORD
+- npm install
+- gulp deploy --user $FTP_USER --password $FTP_PASSWORD

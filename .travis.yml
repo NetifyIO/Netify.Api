@@ -4,6 +4,7 @@ mono: none
 dotnet: 2.0.3
 install:
 - dotnet restore
+- npm install -g gulp
 - npm install
 script:
 - dotnet build

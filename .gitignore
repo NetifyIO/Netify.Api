@@ -36,3 +36,4 @@ appsettings.Development.json
 *.userprefs
 
 publish/
+node_modules/

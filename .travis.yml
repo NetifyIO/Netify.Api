@@ -6,3 +6,4 @@ install:
 - dotnet restore
 script:
 - dotnet build
+- dotnet publish ./Netify.Api/Netify.Api.csproj --output ../publish

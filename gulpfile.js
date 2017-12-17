@@ -1,4 +1,3 @@
-var gulp = require('gulp');
 var ftp = require('vinyl-ftp');
 var gutil = require('gulp-util');
 var debug = require('gulp-debug');

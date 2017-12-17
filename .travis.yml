@@ -4,10 +4,10 @@ mono: none
 dotnet: 2.0.3
 install:
 - dotnet restore
-- npm install -g gulp
-- npm install
 script:
 - dotnet build
 - dotnet publish ./Netify.Api/Netify.Api.csproj --output ../publish
 after_success:
+- npm install -g gulp
+- npm install
 - gulp deploy --user $FTP_USER --password $FTP_PASSWORD
